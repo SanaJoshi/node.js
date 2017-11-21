@@ -1,0 +1,18 @@
+Create a terminal node app to-do list to help you with your day to day life.
+
+- Browse the node api documentation?
+- How can I read the keyboard? (hint: readline)
+- What class structure/modules will I design?
+- How would I write my to-do list to disk (hint: fs)
+
+var multiply = function(num) {
+  return num * 5;
+}
+
+rl.question('Whats a number? ', (answer) => {
+  // TODO: Log the answer in a database
+  // console.log(`Thank you for your valuable feedback: ${answer}`);
+  console.log(`five times that amount is: ${multiply(answer)}`);
+
+  rl.close();
+});
